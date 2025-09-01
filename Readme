@@ -25,9 +25,4 @@ In another terminal window, initiate the TCP handshake from the client side
 bash:
  sudo make run-client
 
-CONTRIBUTION:
-Each one of us contributed eually complete the assignment
-Udbhav Singh Sikarwar -33.33%
-Ayush-33.33%
-Kaneez Fatima-33.33
 

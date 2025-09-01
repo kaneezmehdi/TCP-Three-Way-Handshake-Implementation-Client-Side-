@@ -1,0 +1,33 @@
+About the code:
+
+This client.cpp program implements a TCP client that performs a 3-way handshake
+ with a server using raw sockets, manually constructing IP and TCP headers. 
+ This low-level approach demonstrates how TCP connections are established at the network protocol level.
+
+ Prereqisites:
+
+- Operating System: macOS or Linux (raw sockets require a Unix-like system)
+- Compiler: g++ or clang++
+- Root privileges (required to send raw packets)
+
+COMPILATION:
+bash
+g++ client.cpp -o client -std=c++11
+
+EXECUTION:
+
+1. Run the Server
+In one terminal window, start the server to listen for incoming SYN packets:
+bash:
+  sudo make run-server
+ 2. Run the Client
+In another terminal window, initiate the TCP handshake from the client side
+bash:
+ sudo make run-client
+
+CONTRIBUTION:
+Each one of us contributed eually complete the assignment
+Udbhav Singh Sikarwar -33.33%
+Ayush-33.33%
+Kaneez Fatima-33.33
+
